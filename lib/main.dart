@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/design_page_1.dart';
+import 'package:flutter_app/desing_part_2.dart';
 import 'package:flutter_app/home.dart';
 
 void main() {
@@ -25,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Title for home page changed'),
+      home: DesignPart2(),
     );
   }
 }
